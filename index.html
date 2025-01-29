@@ -29,6 +29,34 @@
   background-size: cover;
   background-position: right;
 }
+.say-1{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url(images/banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.say-2{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url(images/slider-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.say-3{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url(images/slider-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.say-4{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url(images/slider-3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
     </style>
     <script>
         tailwind.config = {
@@ -232,43 +260,117 @@
          </div>
           </div>
       </section>
-      <!-- client say -->
-       <section class="my-14">
-        <div class="w-3/5 mx-auto text-center space-y-8">
+      <!-- client say section -->
+       <section class="my-10">
+        <!-- text section -->
+        <div class="w-3/5 mx-auto text-center space-y-7 mb-10">
           <h1 class="eb-garamond font-extrabold text-4xl text-[#414040]">What Our Client Say</h1>
           <p class="text-base font-normal text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
          </div>
-         <!-- awlad hossain -->
-         <div class="">
-          <div class="carousel w-full">
+         <!-- container section -->
+         <div class="carousel w-full">
+          <!-- slide 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
            
-            <div id="slide2" class="carousel-item relative w-full">
-             
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
+           <div class="w-full say-1 h-[550px]">
+                  <!-- avatarer div -->
+            <div class="w-10/12 mx-auto text-center my-28 ">
+              <!-- tader avatar -->
+              <div class="avatar">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="images/faeuk.jpg" />
+                </div>
               </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                class="w-full" />
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+              <h1 class="font-extrabold text-2xl text-white eb-garamond">Omar Faruk</h1>
+              <h3 class="font-normal text-base text-white">kocho Designer</h3>
+            <p class="font-normal text-base text-[#F3F3F3] mt-6">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+            </p>
+            
+          </div>
+           </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
-         </div>
+          <!-- slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+           
+           <div class="w-full say-2 h-[550px]">
+                  <!-- avatarer div -->
+            <div class="w-10/12 mx-auto text-center my-28 ">
+              <!-- tader avatar -->
+              <div class="avatar">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="images/faeuk.jpg" />
+                </div>
+              </div>
+              <h1 class="font-extrabold text-2xl text-white eb-garamond"> Omar Faruk</h1>
+              <h3 class="font-normal text-base text-white">kocho Designer</h3>
+            <p class="font-normal text-base text-[#F3F3F3] mt-6">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+            </p>
+            
+          </div>
+           </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+           
+           <div class="w-full say-3 h-[550px]">
+                  <!-- avatarer div -->
+            <div class="w-10/12 mx-auto text-center my-28 ">
+              <!-- tader avatar -->
+              <div class="avatar">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="images/faeuk.jpg" />
+                </div>
+              </div>
+              <h1 class="font-extrabold text-2xl text-white eb-garamond"> Omar Faruk</h1>
+              <h3 class="font-normal text-base text-white">kocho Designer</h3>
+            <p class="font-normal text-base text-[#F3F3F3] mt-6">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+            </p>
+            
+          </div>
+           </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- slide 4 -->
+          <div id="slide4" class="carousel-item relative w-full">
+           
+           <div class="w-full say-4 h-[550px]">
+                  <!-- avatarer div -->
+            <div class="w-10/12 mx-auto text-center my-28 ">
+              <!-- tader avatar -->
+              <div class="avatar">
+                <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="images/faeuk.jpg" />
+                </div>
+              </div>
+              <h1 class="font-extrabold text-2xl text-white eb-garamond"> Omar Faruk</h1>
+              <h3 class="font-normal text-base text-white">kocho Designer</h3>
+            <p class="font-normal text-base text-[#F3F3F3] mt-6">
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+            </p>
+            
+          </div>
+           </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+         
+        </div>
        </section>
        <!-- asked any questions -->
         <section class="p-1">
